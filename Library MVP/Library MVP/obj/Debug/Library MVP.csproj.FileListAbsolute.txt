@@ -1,0 +1,9 @@
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\Library MVP.exe.config
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\Library MVP.exe
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\Library MVP.pdb
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.csprojResolveAssemblyReference.cache
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Properties.Resources.resources
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.csproj.GenerateResource.Cache
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.csproj.CoreCompileInputs.cache
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.exe
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.pdb
