@@ -15,5 +15,7 @@ namespace Library_MVP.Models
         public string Book_Author { get; set; }
 
         public int Book_PageNumber { get; set; }
+
+        public string Book_Country { get; set; }
     }
 }
