@@ -52,6 +52,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Forms\Frm_Authors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Authors.Designer.cs">
+      <DependentUpon>Frm_Authors.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Forms\Frm_BookPlace.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,18 @@
     </Compile>
     <Compile Include="Views\Forms\Frm_Category.Designer.cs">
       <DependentUpon>Frm_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Country.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Country.Designer.cs">
+      <DependentUpon>Frm_Country.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_DarNashr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_DarNashr.Designer.cs">
+      <DependentUpon>Frm_DarNashr.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Forms\RibbonForm1.cs">
       <SubType>Form</SubType>
@@ -80,11 +98,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Forms\Frm_Authors.resx">
+      <DependentUpon>Frm_Authors.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_BookPlace.resx">
       <DependentUpon>Frm_BookPlace.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_Category.resx">
       <DependentUpon>Frm_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_Country.resx">
+      <DependentUpon>Frm_Country.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_DarNashr.resx">
+      <DependentUpon>Frm_DarNashr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\RibbonForm1.resx">
       <DependentUpon>RibbonForm1.cs</DependentUpon>
