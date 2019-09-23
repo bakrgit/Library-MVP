@@ -7,3 +7,49 @@ E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.csproj.CoreCompileInputs.cache
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.exe
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.pdb
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.RibbonForm1.resources
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library MVP.exe.licenses
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Data.v18.1.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Printing.v18.1.Core.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Utils.v18.1.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.XtraBars.v18.1.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.XtraEditors.v18.1.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Pdf.v18.1.Core.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Sparkline.v18.1.Core.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Data.v18.1.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Printing.v18.1.Core.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Utils.v18.1.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.XtraBars.v18.1.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.XtraEditors.v18.1.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Pdf.v18.1.Core.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\DevExpress.Sparkline.v18.1.Core.xml
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.Data.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.Data.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.Data.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.Data.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.Printing.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.Printing.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.Printing.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.Printing.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.Utils.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.Utils.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.Utils.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.Utils.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.XtraBars.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.XtraBars.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.XtraBars.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.XtraBars.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.XtraEditors.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.XtraEditors.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.XtraEditors.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.XtraEditors.v18.1.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.Pdf.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\de\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\es\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ja\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\bin\Debug\ru\DevExpress.Sparkline.v18.1.Core.resources.dll
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_Category.resources
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_BookPlace.resources
