@@ -54,6 +54,37 @@ namespace Library_MVP.Logic.Services
             
         }
 
-
+        //this methoud to get any data in table or sp in database in all program
+        public static DataTable getData(string spName, Action methoud)
+        {
+            DataTable tbl = new DataTable();
+            SqlDataAdapter da;
+            using (SqlConnection connection = getConnectionString())
+            {
+                try
+                {
+                    command = new SqlCommand(spName, connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    //to excute methoud that contain parmaters
+                    methoud.Invoke();
+                    connection.Open();
+                  
+                    da = new SqlDataAdapter(command);
+                    da.Fill(tbl);
+                    da.Dispose();
+                    connection.Close();
+                }
+                catch (Exception ex)
+                {
+                    connection.Close();
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    connection.Close();
+                }
+            }
+            return tbl;
+        }
     }
 }

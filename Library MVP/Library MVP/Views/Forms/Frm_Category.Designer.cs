@@ -89,6 +89,7 @@
             this.txtID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtID.Location = new System.Drawing.Point(314, 35);
             this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(167, 36);
             this.txtID.TabIndex = 1;
             this.txtID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -123,6 +124,7 @@
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(49, 34);
             this.btnNext.TabIndex = 9;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnFirst
             // 
@@ -131,6 +133,7 @@
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(49, 34);
             this.btnFirst.TabIndex = 7;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnPervios
             // 
@@ -139,6 +142,7 @@
             this.btnPervios.Name = "btnPervios";
             this.btnPervios.Size = new System.Drawing.Size(49, 34);
             this.btnPervios.TabIndex = 8;
+            this.btnPervios.Click += new System.EventHandler(this.btnPervios_Click);
             // 
             // btnLast
             // 
@@ -147,6 +151,7 @@
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(49, 34);
             this.btnLast.TabIndex = 6;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // groupBox3
             // 
@@ -172,6 +177,7 @@
             this.btnNew.Size = new System.Drawing.Size(86, 34);
             this.btnNew.TabIndex = 14;
             this.btnNew.Text = "جديد";
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnDeleteAll
             // 
@@ -183,6 +189,7 @@
             this.btnDeleteAll.Size = new System.Drawing.Size(134, 34);
             this.btnDeleteAll.TabIndex = 13;
             this.btnDeleteAll.Text = "مسح الكل";
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // btnDelete
             // 
@@ -194,6 +201,7 @@
             this.btnDelete.Size = new System.Drawing.Size(86, 34);
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "مسح";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -205,6 +213,7 @@
             this.btnSave.Size = new System.Drawing.Size(86, 34);
             this.btnSave.TabIndex = 11;
             this.btnSave.Text = "حفظ";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnAdd
             // 
@@ -220,9 +229,15 @@
             // 
             // Dgv
             // 
+            this.Dgv.AllowUserToAddRows = false;
+            this.Dgv.AllowUserToDeleteRows = false;
+            this.Dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.Dgv.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.Dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dgv.Location = new System.Drawing.Point(12, 287);
             this.Dgv.Name = "Dgv";
+            this.Dgv.ReadOnly = true;
+            this.Dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Dgv.Size = new System.Drawing.Size(580, 272);
             this.Dgv.TabIndex = 11;
             // 

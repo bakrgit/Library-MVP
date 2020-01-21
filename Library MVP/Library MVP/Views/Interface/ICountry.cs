@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Library_MVP.Views.Interface
 {
-    public interface ICategory
+   public interface ICountry
     {
-         int ID { get; set; }
+        int ID { get; set; }
         int row { get; set; }
-        string CatName { get; set; }
-         object dGVCat { get; set; }
+        string CountryName { get; set; }
+        object dataGridView { get; set; }
         object btnAdd { get; set; }
         object btnNew { get; set; }
         object btnSave { get; set; }
