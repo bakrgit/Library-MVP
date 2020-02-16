@@ -51,15 +51,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logic\Presenter\AuthoresPresenter.cs" />
+    <Compile Include="Logic\Presenter\BookPlacePresenter.cs" />
     <Compile Include="Logic\Presenter\CategoryPresenter.cs" />
     <Compile Include="Logic\Presenter\CountryPresenter.cs" />
+    <Compile Include="Logic\Presenter\DarNashrPersenter.cs" />
     <Compile Include="Logic\Services\AuthoresServices.cs" />
+    <Compile Include="Logic\Services\BookPlaceServeice.cs" />
     <Compile Include="Logic\Services\CategoryService.cs" />
     <Compile Include="Logic\Services\CountryService.cs" />
+    <Compile Include="Logic\Services\DarNashrService.cs" />
     <Compile Include="Logic\Services\DBHelper.cs" />
     <Compile Include="Models\AuthorsModel.cs" />
+    <Compile Include="Models\BookPlacesModel.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\CountryModel.cs" />
+    <Compile Include="Models\DarNasherModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Forms\Frm_Authors.cs">
@@ -99,8 +105,10 @@
       <DependentUpon>RibbonForm1.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Interface\IAuthors.cs" />
+    <Compile Include="Views\Interface\IBookPlace.cs" />
     <Compile Include="Views\Interface\ICategory.cs" />
     <Compile Include="Views\Interface\ICountry.cs" />
+    <Compile Include="Views\Interface\IDarNashr.cs" />
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

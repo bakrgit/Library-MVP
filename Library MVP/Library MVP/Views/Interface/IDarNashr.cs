@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Library_MVP.Views.Interface
 {
-    interface IAuthors
+    interface IDarNashr
     {
         int ROW { get; set; }
         int ID { get; set; }
-        string AuthorName { get; set; }
-        string AuthorDate { get; set; }
+        string DarName { get; set; }
         int CountryID { get; set; }
         object Dgv { get; set; }
         object cbxCountry { get; set; }
@@ -20,8 +19,8 @@ namespace Library_MVP.Views.Interface
         object btnSave { get; set; }
         object btnDelete { get; set; }
         object btnDeleteAll { get; set; }
-        string AuthorDisplayMember { get; set; }
-        string AuthorValueMember { get; set; }
+        string DarDisplayMember { get; set; }
+        string DarValueMember { get; set; }
         int selectdIndex { get; set; }
         int selectdValue { get; set; }
     }

@@ -33,7 +33,19 @@ namespace Library_MVP.Logic.Presenter
         public bool AuthorsInsert()
         {
             connectBetweenModelInterface();
-            return AuthoresServices.authoresInsert(authorsModels.ID, authorsModels.AuthorName, authorsModels.AuthorDate , authorsModels.CountryID);
+            DateTime d1 = Convert.ToDateTime(authorsModels.AuthorDate);
+            string d2 = d1.ToString("dd/MM/yyyy");
+
+            return AuthoresServices.authoresInsert(authorsModels.ID, authorsModels.AuthorName, d2 , authorsModels.CountryID);
+        }
+        //this methoud to connect to services class to update data in authors table
+        public bool AuthorsUpdate()
+        {
+            connectBetweenModelInterface();
+            DateTime d1 = Convert.ToDateTime(authorsModels.AuthorDate);
+            string d2 = d1.ToString("dd/MM/yyyy");
+
+            return AuthoresServices.authoresUpdate(authorsModels.ID, authorsModels.AuthorName, d2, authorsModels.CountryID);
         }
 
 
@@ -46,7 +58,15 @@ namespace Library_MVP.Logic.Presenter
 
         public void AutoNumber ()
         {
-            iAuthors.ID = Convert.ToInt32(AuthoresServices.getAuthorMaxID().Rows[0][0]) + 1 ;
+            string val = Convert.ToString(AuthoresServices.getAuthorMaxID().Rows[0][0]);
+            if (val == null || val == "")
+            {
+                iAuthors.ID = 1;
+            }
+            else
+            {
+                iAuthors.ID = Convert.ToInt32(AuthoresServices.getAuthorMaxID().Rows[0][0]) + 1;
+            }
             iAuthors.AuthorName = "";
             iAuthors.AuthorDate = DateTime.Now.ToShortDateString();
             iAuthors.selectdIndex = 0;
@@ -57,6 +77,55 @@ namespace Library_MVP.Logic.Presenter
             iAuthors.btnDelete = false;
             iAuthors.btnDeleteAll = false;
             iAuthors.btnAdd = true;
+        }
+
+
+
+        public void getRow(int row)
+        {
+            DataTable tbl = new DataTable();
+            tbl = AuthoresServices.getAllAuthorDataCountryID();
+
+            iAuthors.ID = Convert.ToInt32(tbl.Rows[row][0]);
+            iAuthors.AuthorName = Convert.ToString(tbl.Rows[row][1]);
+            try
+            {
+                DateTime dt = DateTime.ParseExact(Convert.ToString(tbl.Rows[row][2]), "dd/MM/yyyy", null);
+                iAuthors.AuthorDate = dt.ToString();
+            }
+            catch (Exception) { }
+            iAuthors.selectdValue = Convert.ToInt32(tbl.Rows[row][3]);
+
+            iAuthors.btnSave = true;
+            iAuthors.btnDelete = true;
+            iAuthors.btnDeleteAll = true;
+            iAuthors.btnAdd = false;
+        }
+
+
+        public DataTable getLastRow()
+        {
+            DataTable tbl = new DataTable();
+            tbl = AuthoresServices.getLastRow();
+
+
+            return tbl;
+        }
+
+        public bool DeleteAuthor()
+        {
+            connectBetweenModelInterface();
+            bool check = AuthoresServices.DeleteDeleteAuthor(authorsModels.ID);
+            AutoNumber();
+            return check;
+        }
+
+        public bool DeleteAuthorAll()
+        {
+            connectBetweenModelInterface();
+            bool check = AuthoresServices.DeleteAuthorAll();
+            AutoNumber();
+            return check;
         }
     }
 }
