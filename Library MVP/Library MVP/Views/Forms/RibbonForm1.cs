@@ -47,5 +47,11 @@ namespace Library_MVP.Views.Forms
             Frm_Authors frm = new Frm_Authors();
             frm.ShowDialog();
         }
+
+        private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_BooksData frm = new Frm_BooksData();
+            frm.ShowDialog();
+        }
     }
 }

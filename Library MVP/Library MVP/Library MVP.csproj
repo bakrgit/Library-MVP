@@ -51,17 +51,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Logic\Presenter\AuthoresPresenter.cs" />
+    <Compile Include="Logic\Presenter\BookDataPresenter.cs" />
     <Compile Include="Logic\Presenter\BookPlacePresenter.cs" />
     <Compile Include="Logic\Presenter\CategoryPresenter.cs" />
     <Compile Include="Logic\Presenter\CountryPresenter.cs" />
     <Compile Include="Logic\Presenter\DarNashrPersenter.cs" />
     <Compile Include="Logic\Services\AuthoresServices.cs" />
     <Compile Include="Logic\Services\BookPlaceServeice.cs" />
+    <Compile Include="Logic\Services\BooksDataService.cs" />
     <Compile Include="Logic\Services\CategoryService.cs" />
     <Compile Include="Logic\Services\CountryService.cs" />
     <Compile Include="Logic\Services\DarNashrService.cs" />
     <Compile Include="Logic\Services\DBHelper.cs" />
     <Compile Include="Models\AuthorsModel.cs" />
+    <Compile Include="Models\BookDataModel.cs" />
     <Compile Include="Models\BookPlacesModel.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\CountryModel.cs" />
@@ -79,6 +82,12 @@
     </Compile>
     <Compile Include="Views\Forms\Frm_BookPlace.Designer.cs">
       <DependentUpon>Frm_BookPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_BooksData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_BooksData.Designer.cs">
+      <DependentUpon>Frm_BooksData.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Forms\Frm_Category.cs">
       <SubType>Form</SubType>
@@ -106,6 +115,7 @@
     </Compile>
     <Compile Include="Views\Interface\IAuthors.cs" />
     <Compile Include="Views\Interface\IBookPlace.cs" />
+    <Compile Include="Views\Interface\IBooksData.cs" />
     <Compile Include="Views\Interface\ICategory.cs" />
     <Compile Include="Views\Interface\ICountry.cs" />
     <Compile Include="Views\Interface\IDarNashr.cs" />
@@ -124,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_BookPlace.resx">
       <DependentUpon>Frm_BookPlace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_BooksData.resx">
+      <DependentUpon>Frm_BooksData.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_Category.resx">
       <DependentUpon>Frm_Category.cs</DependentUpon>

@@ -56,3 +56,4 @@ E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_DarNashr.resources
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_Authors.resources
 E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_Country.resources
+E:\الدورة المتقدمة C#+SQL Server Useing MVP+Git\sorse code\Library MVP\Library MVP\obj\Debug\Library_MVP.Views.Forms.Frm_BooksData.resources
