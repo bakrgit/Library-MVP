@@ -28,6 +28,7 @@ namespace Library_MVP.Views.Interface
         object cbxPlace { get; set; }
         object cbxDarNashr{ get; set; }
         object cbxBooks { get; set; }
+        object cbxAuthores { get; set; }
 
         //this variables to store DisplayMember and Value Member in cbx
         string cbxCountryDisplayMember  { get; set; }
@@ -40,6 +41,8 @@ namespace Library_MVP.Views.Interface
         string cbxDarNashrValueMember { get; set; }
         string cbxBooksDisplayMember { get; set; }
         string cbxBooksValueMember { get; set; }
+        string cbxAuthoresValueMember { get; set; }
+        string cbxAuthoresDisplayMember { get; set; }
         //this variables to store selected value and selected index in cbx 
         int cbxCountryselectdIndex  { get; set; }
         int cbxCountryselectdValue { get; set; }

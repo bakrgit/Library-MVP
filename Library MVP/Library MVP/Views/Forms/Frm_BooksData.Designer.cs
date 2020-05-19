@@ -41,6 +41,8 @@
             this.btnPervios = new DevExpress.XtraEditors.SimpleButton();
             this.btnLast = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbxAuthors = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.txtNotes = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -67,8 +69,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbxBooks = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.cbxAuthors = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -100,6 +100,7 @@
             this.btnNew.Size = new System.Drawing.Size(86, 34);
             this.btnNew.TabIndex = 14;
             this.btnNew.Text = "جديد";
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnDeleteAll
             // 
@@ -111,6 +112,7 @@
             this.btnDeleteAll.Size = new System.Drawing.Size(134, 34);
             this.btnDeleteAll.TabIndex = 13;
             this.btnDeleteAll.Text = "مسح الكل";
+            this.btnDeleteAll.Click += new System.EventHandler(this.btnDeleteAll_Click);
             // 
             // btnDelete
             // 
@@ -122,6 +124,7 @@
             this.btnDelete.Size = new System.Drawing.Size(86, 34);
             this.btnDelete.TabIndex = 12;
             this.btnDelete.Text = "مسح";
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnSave
             // 
@@ -133,6 +136,7 @@
             this.btnSave.Size = new System.Drawing.Size(86, 34);
             this.btnSave.TabIndex = 11;
             this.btnSave.Text = "حفظ";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnAdd
             // 
@@ -144,6 +148,7 @@
             this.btnAdd.Size = new System.Drawing.Size(86, 34);
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "اضافة";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // groupBox2
             // 
@@ -165,6 +170,7 @@
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(49, 34);
             this.btnNext.TabIndex = 9;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnFirst
             // 
@@ -173,6 +179,7 @@
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(49, 34);
             this.btnFirst.TabIndex = 7;
+            this.btnFirst.Click += new System.EventHandler(this.btnFirst_Click);
             // 
             // btnPervios
             // 
@@ -181,6 +188,7 @@
             this.btnPervios.Name = "btnPervios";
             this.btnPervios.Size = new System.Drawing.Size(49, 34);
             this.btnPervios.TabIndex = 8;
+            this.btnPervios.Click += new System.EventHandler(this.btnPervios_Click);
             // 
             // btnLast
             // 
@@ -189,6 +197,7 @@
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(49, 34);
             this.btnLast.TabIndex = 6;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // groupBox1
             // 
@@ -224,6 +233,26 @@
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بيانات الكتاب";
+            // 
+            // cbxAuthors
+            // 
+            this.cbxAuthors.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbxAuthors.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbxAuthors.FormattingEnabled = true;
+            this.cbxAuthors.Location = new System.Drawing.Point(12, 341);
+            this.cbxAuthors.Name = "cbxAuthors";
+            this.cbxAuthors.Size = new System.Drawing.Size(276, 36);
+            this.cbxAuthors.TabIndex = 45;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.Red;
+            this.label14.Location = new System.Drawing.Point(288, 345);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(100, 28);
+            this.label14.TabIndex = 44;
+            this.label14.Text = "مؤلف الكتاب:";
             // 
             // txtNotes
             // 
@@ -498,26 +527,6 @@
             this.label13.Size = new System.Drawing.Size(78, 28);
             this.label13.TabIndex = 44;
             this.label13.Text = "اختر كتاب:";
-            // 
-            // cbxAuthors
-            // 
-            this.cbxAuthors.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbxAuthors.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbxAuthors.FormattingEnabled = true;
-            this.cbxAuthors.Location = new System.Drawing.Point(12, 341);
-            this.cbxAuthors.Name = "cbxAuthors";
-            this.cbxAuthors.Size = new System.Drawing.Size(276, 36);
-            this.cbxAuthors.TabIndex = 45;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(288, 345);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(100, 28);
-            this.label14.TabIndex = 44;
-            this.label14.Text = "مؤلف الكتاب:";
             // 
             // Frm_BooksData
             // 

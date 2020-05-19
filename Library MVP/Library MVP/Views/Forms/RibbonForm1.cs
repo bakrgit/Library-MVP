@@ -53,5 +53,23 @@ namespace Library_MVP.Views.Forms
             Frm_BooksData frm = new Frm_BooksData();
             frm.ShowDialog();
         }
+
+        private void barButtonItem8_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_BooksSearch frm = new Frm_BooksSearch();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem9_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_Borrowers frm = new Frm_Borrowers();
+            frm.ShowDialog();
+        }
+
+        private void barButtonItem10_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Frm_Borrow frm = new Frm_Borrow();
+            frm.ShowDialog();
+        }
     }
 }

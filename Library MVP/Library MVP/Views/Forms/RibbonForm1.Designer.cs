@@ -249,6 +249,7 @@
             this.barButtonItem8.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem8.Name = "barButtonItem8";
             this.barButtonItem8.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
             // 
             // barButtonItem9
             // 
@@ -270,6 +271,7 @@
             this.barButtonItem9.ItemAppearance.Pressed.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.barButtonItem9.Name = "barButtonItem9";
             this.barButtonItem9.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem9.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem9_ItemClick);
             // 
             // barButtonItem10
             // 
@@ -291,6 +293,7 @@
             this.barButtonItem10.ItemAppearance.Pressed.TextOptions.WordWrap = DevExpress.Utils.WordWrap.NoWrap;
             this.barButtonItem10.Name = "barButtonItem10";
             this.barButtonItem10.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.barButtonItem10.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem10_ItemClick);
             // 
             // barButtonItem11
             // 

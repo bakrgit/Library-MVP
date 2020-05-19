@@ -53,12 +53,18 @@
     <Compile Include="Logic\Presenter\AuthoresPresenter.cs" />
     <Compile Include="Logic\Presenter\BookDataPresenter.cs" />
     <Compile Include="Logic\Presenter\BookPlacePresenter.cs" />
+    <Compile Include="Logic\Presenter\BooksSearchPersenter.cs" />
+    <Compile Include="Logic\Presenter\BorrowersPersenter.cs" />
+    <Compile Include="Logic\Presenter\BorrowPersenter.cs" />
     <Compile Include="Logic\Presenter\CategoryPresenter.cs" />
     <Compile Include="Logic\Presenter\CountryPresenter.cs" />
     <Compile Include="Logic\Presenter\DarNashrPersenter.cs" />
     <Compile Include="Logic\Services\AuthoresServices.cs" />
     <Compile Include="Logic\Services\BookPlaceServeice.cs" />
     <Compile Include="Logic\Services\BooksDataService.cs" />
+    <Compile Include="Logic\Services\BooksSearchServices.cs" />
+    <Compile Include="Logic\Services\BorrowersServices.cs" />
+    <Compile Include="Logic\Services\BorrowServices.cs" />
     <Compile Include="Logic\Services\CategoryService.cs" />
     <Compile Include="Logic\Services\CountryService.cs" />
     <Compile Include="Logic\Services\DarNashrService.cs" />
@@ -66,6 +72,9 @@
     <Compile Include="Models\AuthorsModel.cs" />
     <Compile Include="Models\BookDataModel.cs" />
     <Compile Include="Models\BookPlacesModel.cs" />
+    <Compile Include="Models\BooksSearch.cs" />
+    <Compile Include="Models\BorrowersModel.cs" />
+    <Compile Include="Models\BorrowModel.cs" />
     <Compile Include="Models\CategoryModel.cs" />
     <Compile Include="Models\CountryModel.cs" />
     <Compile Include="Models\DarNasherModel.cs" />
@@ -88,6 +97,24 @@
     </Compile>
     <Compile Include="Views\Forms\Frm_BooksData.Designer.cs">
       <DependentUpon>Frm_BooksData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_BooksSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_BooksSearch.Designer.cs">
+      <DependentUpon>Frm_BooksSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Borrow.Designer.cs">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Borrowers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Frm_Borrowers.Designer.cs">
+      <DependentUpon>Frm_Borrowers.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Forms\Frm_Category.cs">
       <SubType>Form</SubType>
@@ -116,6 +143,9 @@
     <Compile Include="Views\Interface\IAuthors.cs" />
     <Compile Include="Views\Interface\IBookPlace.cs" />
     <Compile Include="Views\Interface\IBooksData.cs" />
+    <Compile Include="Views\Interface\IBooksSearch.cs" />
+    <Compile Include="Views\Interface\IBorrow.cs" />
+    <Compile Include="Views\Interface\IBorrowers.cs" />
     <Compile Include="Views\Interface\ICategory.cs" />
     <Compile Include="Views\Interface\ICountry.cs" />
     <Compile Include="Views\Interface\IDarNashr.cs" />
@@ -137,6 +167,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_BooksData.resx">
       <DependentUpon>Frm_BooksData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_BooksSearch.resx">
+      <DependentUpon>Frm_BooksSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_Borrow.resx">
+      <DependentUpon>Frm_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Frm_Borrowers.resx">
+      <DependentUpon>Frm_Borrowers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Forms\Frm_Category.resx">
       <DependentUpon>Frm_Category.cs</DependentUpon>
